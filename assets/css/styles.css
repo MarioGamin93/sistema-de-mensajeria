@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e8ebe4;
+    color: #1b1f21;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Contenedor principal */
+.container{
+    display: flex;
+}
+
+/* Lista de mensajería */
+.nav-main{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #bec1bb;
+    height: 100vh;
+    width: 400px;
+}
+
+.nav-main__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 400px;
+}
+
+.nav-main__container{
+    display: flex;
+    cursor: pointer;
+}
+
+.nav-main__container--first{
+    flex-direction: column;
+}
+
+.nav-main__box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #bec1bb;
+    height: 6em;
+    gap: 10px;
+    padding-left: 2em;
+    justify-content: flex-start;
+}
+
+.nav-main__box--first{
+    padding: 0;
+    flex-basis: 4em;
+    justify-content: space-around;
+}
+
+.container__first{
+    display: flex;
+    gap: 10px;
+    width: 55%;
+    align-items: center;
+}
+
+.box__icon{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    gap: 1.5em;
+
+}
+
+.box__icon i{
+    display: flex;
+    color: #bec1bb;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button__box{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-basis: 11em;
+    border: 1px solid #bec1bb;
+    
+}
+
+.button{
+   display: flex;
+   padding: 1em 4em;
+   font-size: 1rem;
+   color: #fff;
+   background-color: #a491d2;
+   border: 1px solid #fff;
+   cursor: pointer;
+}
+
+.box__img{
+    display: flex;
+    width: 15%;
+}
+
+.box__img--first{
+    width: 20%;
+}
+
+.nav__img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nav-main__item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.text__secondary{
+    font-size: .9rem;
+}
+
+.text__secondary--first{
+    font-size: .8rem;
+    color: #bec1bb;
+
+}
+
+.item__list{
+    font-size: 1.2rem;
+}
+
+.item__list--first{
+    padding-left: .6em;
+    font-size: 1rem;
+}
+
+/* Menú principal */
+.section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__box{
+    width: 20%;
+}
+
+.section__img{
+    width: 100%;
+}
+
+.section__title{
+    font-size: 3rem;
+}
+
+.section__text{
+    margin: 0;
+    width: 600px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.section__text span{
+    color: #1b1f21;
+    font-weight: 800;
+}
